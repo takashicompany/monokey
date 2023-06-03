@@ -90,8 +90,27 @@ XIAO RP2040にハンダ付けしたピンを基板の裏面に差し込みます
 ピンと基板をハンダ付けします。キースイッチにハンダが付かないよう注意してください。  
 <img src = "https://github.com/takashicompany/monokey/blob/master/images/build/IMG_4960.jpg?raw=true" width = "600px" />
 
+### 5. ファームウェアの書き込み
 
-<img src = "https://github.com/takashicompany/monokey/blob/master/images/build/IMG_49.jpg?raw=true" width = "600px" />
+[KMK Firmware](https://github.com/KMKfw/kmk_firmware)を用いる場合です。  
+
+[こちら](http://kmkfw.io/docs/Getting_Started/)のKMK Firmwareの導入手順も併せて読むと理解が深まると思います。
+
+[こちら](https://circuitpython.org/board/seeeduino_xiao_rp2040/)から.uf2ファイルをダウンロードします。  
+<img src = "https://github.com/takashicompany/monokey/assets/4215759/47f0223c-b40d-4b95-8516-b403834db523" width = "600px" />
+
+XIAO RP2040のUSB口とは反対側にある「B」と書かれたスイッチを押しながらUSBケーブルを差します。  
+「RPI-RP2」という名前の外部デバイスが表示されれば成功です。  
+<img src = "https://github.com/takashicompany/monokey/blob/master/images/build/IMG_4954_b.jpg?raw=true" width = "600px" />
+
+ダウンロードした.uf2を「RPI-RP2」に書き込みます。ドラッグアンドドロップかコピーペーストで書き込めます。  
+書き込み完了後、「CIRCUITPY」という名前の外部デバイスが表示されれば成功です。  
+<img src = "https://github.com/takashicompany/monokey/assets/4215759/1edcd0e8-89cb-49ea-af4f-ae5e574fdd37" width = "600px" />
+
+[KMK Firmwareのソースコードのzip](https://github.com/KMKfw/kmk_firmware/archive/refs/heads/master.zip)をダウンロードします。  
+解凍後、フォルダ内の`boot.py`と`kmkフォルダ`をCIRCUITPYにドラッグアンドドロップ or コピーペーストします。  
+<img src = "https://github.com/takashicompany/monokey/assets/4215759/7f36a17a-5073-4edc-b0dd-3008e8e5ef75" width = "600px" />
+
 
 <img src = "https://github.com/takashicompany/monokey/blob/master/images/build/IMG_49.jpg?raw=true" width = "600px" />
 
