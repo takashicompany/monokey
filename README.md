@@ -111,11 +111,21 @@ XIAO RP2040のUSB口とは反対側にある「B」と書かれたスイッチ�
 解凍後、フォルダ内の`boot.py`と`kmkフォルダ`をCIRCUITPYにドラッグアンドドロップ or コピーペーストします。  
 <img src = "https://github.com/takashicompany/monokey/assets/4215759/7f36a17a-5073-4edc-b0dd-3008e8e5ef75" width = "600px" />
 
+[こちら](https://github.com/takashicompany/monokey/blob/master/firmware/kmk/code.py)からKMK Firmware用のソースコード`code.py`をダウンロードして、CIRCUITPYにドラッグアンドドロップ　or コピーペーストをします。  
+<img src = "https://github.com/takashicompany/monokey/assets/4215759/0bfe6c1c-1bc5-4667-b853-cea94f43abf7" width = "600px" />
 
-<img src = "https://github.com/takashicompany/monokey/blob/master/images/build/IMG_49.jpg?raw=true" width = "600px" />
+USBをPCに繋いだ状態でキーを押し「This is Monokey.」と入力されれば成功です。  
+`code.py`の以下の箇所を書き換えると、指定のキーや文字列を入力することが可能です。  
+!<img src = "https://github.com/takashicompany/monokey/assets/4215759/5d16fddb-9742-4e00-bda8-d9dce3846fe3" width = "600px" />
 
-<img src = "https://github.com/takashicompany/monokey/blob/master/images/build/IMG_49.jpg?raw=true" width = "600px" />
+### 6. キーキャップの取り付け
 
-<img src = "https://github.com/takashicompany/monokey/blob/master/images/build/IMG_49.jpg?raw=true" width = "600px" />
+キーキャップをキースイッチに取り付けます。  
+<img src = "https://github.com/takashicompany/monokey/blob/master/images/build/IMG_4961.jpg?raw=true" width = "600px" />
 
-<img src = "https://github.com/takashicompany/monokey/blob/master/images/build/IMG_49.jpg?raw=true" width = "600px" />
+### 7. ボールチェーンの取り付け
+
+ボールチェーンを取り付けることで、キーホルダーとして活用できます。  
+<img src = "https://github.com/takashicompany/monokey/blob/master/images/build/IMG_4962.jpg?raw=true" width = "600px" />
+
+以上で完成となります。
