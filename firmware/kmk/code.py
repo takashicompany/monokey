@@ -29,7 +29,7 @@ keyboard = Monokey()
 MyKey = send_string("This is Monokey.")
 
 keyboard.keymap = [
-    [MyKey]
+    [MyKey] # [KC.A]
 ]
 
 if __name__ == '__main__':
