@@ -1,10 +1,12 @@
 # Monokey
 
+<img src = "https://github.com/takashicompany/monokey/blob/master/images/01.jpg?raw=true" width = "600px" />
+
 Monokey(モノキー)はキーホルダー型の1%キーボードです。  
 ミニマムな外見ですが、XIAO RP2040を搭載し、USB接続でPC等と接続することで1キーのキーボードとしても使用可能です。  
 とてもシンプルな構造ですので、自作キーボードの入門用としてももちろん、好きなキーキャップを取り付けてアクセサリとして使うことも可能です。
 
-
+<img src = "https://github.com/takashicompany/monokey/blob/master/images/02.jpg?raw=true" width = "600px" />
 
 ## 組み立てに必要な部品
 
