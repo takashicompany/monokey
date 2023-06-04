@@ -126,6 +126,7 @@ XIAO RP2040のUSB口とは反対側にある「B」と書かれたスイッチ�
 <img src = "https://github.com/takashicompany/monokey/assets/4215759/0bfe6c1c-1bc5-4667-b853-cea94f43abf7" width = "600px" />
 
 USBをPCに繋いだ状態でキーを押し「This is Monokey.」と入力されれば成功です。  
+もし、動作しない場合は一度USBを抜き差しして再試行してください。  
 `code.py`の以下の箇所を書き換えると、指定のキーや文字列を入力することが可能です。  
 !<img src = "https://github.com/takashicompany/monokey/assets/4215759/5d16fddb-9742-4e00-bda8-d9dce3846fe3" width = "600px" />
 
